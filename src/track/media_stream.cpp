@@ -71,6 +71,15 @@ static const std::vector<StreamData> stream_data{
     ),
     std::regex("Crunchyroll - Watch (?:(.+) - (?:Movie - Movie|ONA - ONA|OVA - OVA)|(.+))"),
   },
+  // Animeflv
+  {
+    Stream::Animeflv,
+    taiga::kStream_Animeflv,
+    L"Animeflv",
+    L"https://www.animeflv.net",
+    std::regex("animeflv\\.net/ver/[^/]+/(.+)-([0-9]+)"),
+    std::regex("Ver ([a-z]+) Episodio ([0-9]+) Online[^-]+-- AnimeFLV"),
+  },
   // Funimation
   {
     Stream::Funimation,
