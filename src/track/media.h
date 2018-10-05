@@ -80,6 +80,7 @@ enum class Stream {
   Ann,
   Crunchyroll,
   Funimation,
+  Animeflv,
   Hidive,
   Plex,
   Veoh,
